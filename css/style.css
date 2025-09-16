@@ -1,0 +1,125 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #F4F7FA, #EDE7F6);
+  margin: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+.header .profile-pic {
+  flex: 0 0 150px;
+  text-align: center;
+}
+.header .profile-pic img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid #5b66a3;
+  box-shadow: 0 0 15px rgba(91, 102, 163, 0.5);
+}
+.header .profile-info {
+  margin-left: 2rem;
+}
+.header .profile-info h1 {
+  color: #5b66a3;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.header .profile-info .role {
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 0.8rem;
+}
+.header .profile-info .desc {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: rgb(12.75, 12.75, 12.75);
+}
+.header .profile-info .contacts {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.header .profile-info .contacts .btn {
+  background: #9ab695;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+.header .profile-info .contacts .btn:hover {
+  background: rgb(125.2234636872, 161.2011173184, 118.7988826816);
+}
+
+.main-content {
+  background: #FFFFFF;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.main-content section {
+  margin-bottom: 2rem;
+}
+.main-content section h2 {
+  color: #5b66a3;
+  font-weight: 700;
+  border-left: 6px solid #9ab695;
+  padding-left: 0.6rem;
+  margin-bottom: 1rem;
+}
+.main-content section ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.main-content section ul li {
+  margin-bottom: 0.6rem;
+}
+.main-content .skills .skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.main-content .skills .skill-tags span {
+  background: #26C6DA;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  transition: 0.3s;
+}
+.main-content .skills .skill-tags span:hover {
+  background: rgb(29.8622047244, 158.9960629921, 175.1377952756);
+}
+.main-content .certificates .cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.main-content .certificates .cert-grid img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.main-content .certificates .cert-grid img:hover {
+  transform: scale(1.05);
+}
+
+/*# sourceMappingURL=style.css.map */
